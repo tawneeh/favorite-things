@@ -35,7 +35,7 @@ This application has no known bugs.
 
 Please feel free to reach out to me anytime at <tawneeh@icloud.com>
 
-## Technologies Used -- DOES THIS NEED TO BE UPDATED?
+## Technologies Used
 
 * HTML
 * CSS
