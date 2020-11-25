@@ -14,33 +14,18 @@ $(document).ready(function() {
     const thing5 = $("input#thing5").val();
 
     const array = [thing1, thing2, thing3, thing4, thing5];
+    const spaces = array.join(", ");
     const first = array[0];
     const second = array[1];
     const third = array[2];
-    console.log(first ,second, third);
-    const newArr = [];
+    let newArr = [];
     newArr.push(first, second, third);
 
-
     $("#favForm").hide();
-    $("#output").text(array);
+    
+    $("#output").text(spaces);
     $("#output2").html(`Your top three: <ul>${first}</ul> <ul>${second}</ul> <ul>${third}</ul>`);
 
     event.preventDefault();
   });
 });
-
-
-
-
-
-
-
-
-
-
-// gather UI input
-
-// then, manipulate arrays
-
-// then, diplay final array
