@@ -1,13 +1,13 @@
-# _TITLE_ --read this thoroughly to see if it applies--
+# _Favorite Things_ 
 
-#### _DESCRIBE - PRACTICE FOR EPICODUS??_ 
-#### _DATE 11.16.2020_
+#### _JS Array Practice for Epicodus_ 
+#### _DATE 11.25.2020_
 
 #### By _**Tawnee Harris**_
 
 ## Description
 
-This application... ADD INFO
+This project will allow users to enter some of their favorite things into a form then see the input displayed on the page.
 
 ## Setup/Installation Requirements
 

@@ -1,9 +1,43 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <title>Template</title>
+  <title>Favorite Things</title>
 </head>
 <body>
+  <div class="container">
+    <h1>Fill in the blanks with your favorite things!</h1>  
+    <div>
+      <form id="favForm"> <!-- add class="form-horizontal" - see what it looks like? -->
+        <div class="form-group">
+          <label for="thing1">Favorite Thing #1</label>
+          <input id="thing1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="thing2">Favorite Thing #2</label>
+          <input id="thing2" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="thing3">Favorite Thing #3</label>
+          <input id="thing3" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="thing4">Favorite Thing #4</label>
+          <input id="thing4" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="thing5">Favorite Thing #5</label>
+          <input id="thing5" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn btn-success btn-sm">Show me the list!</button>
+      </form>
+      <div id="output"></div>
+      <div id="output2">
+        <ul></ul>
+      </div>
+
+    </div>
+  </div>
 
   <script type="text/javascript" src="bundle.js"></script>
 </body>
